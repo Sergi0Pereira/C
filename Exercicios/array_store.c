@@ -7,24 +7,33 @@ element - 2 : 2
 .......
 Expected Output :
 Elements in array are: 1 1 2 3 4 5 6 7 8 9*/
-
 #include <stdio.h>
 int main(){
+int x;
 
-int c[10],i=1,e=0;
+    printf("Input how many elements array gonna have:\n");
+    scanf("%d",&x);
+
+int c[x],i=1,e=1;
+
     printf("Input the elements of the array:\n");
-    while(e<10){
-        printf("Element %d : ",e);
-        scanf("%d",&c[e]);
-        e++;
+
+while(e<=x){
+
+    printf("Element %d : ",e);
+    scanf("%d",&c[e]);
+    e++;
     }
-    e=0;
+
+    e=1;
+
     printf("Elements in array are:");
-    while(e<10){
-        printf("%d ", c[e]);
-        e++;
+
+while(e<=x){
+
+    printf("%d ", c[e]);
+    e++;
     }
-    printf("*/");
 return 0;
 }
 
