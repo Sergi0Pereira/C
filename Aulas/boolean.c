@@ -2,8 +2,8 @@
 #include <stdbool.h>
 int main(){
 
-    bool gordo= false;// true=1  ,  false=0 ;   
+    bool codigo= true;// true=1  ,  false=0 ;   
 
-    printf("O sergio e gordo?\n%i", gordo );
+    printf("O sergio esta a aprender codigo?\n%i", codigo );
     return 0;
 }
