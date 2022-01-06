@@ -2,7 +2,6 @@
 
 int main()
 {
-
     printf("Insert here the number of dogs: \n");
 
     double dogs;
@@ -17,7 +16,6 @@ int main()
     %g- escolhe a apresentacao mais adequada
     conversao de um numero em char vai corresponder ao seu equivalente em ASCII*
     Exemplo: 65=A em ASCII*/
-
 
     return 0 ;
 
