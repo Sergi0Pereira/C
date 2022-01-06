@@ -1,33 +1,42 @@
 #include <stdio.h>
 
-int adicao();
+int adicao(){
 
-
-int main(){
-
-    adicao();
-        printf("Aqui esta sua adicao!");
-        sub(int n1,int n2);
-    
-}
-        int adicao(void)
-        
-{       
-        int n1,n2,soma;
+    int n1,n2,soma;
         printf("Insira o primeiro numero: \n");
         scanf("%d", &n1);
         printf("Insira o segundo numero: \n");
         scanf("%d",&n2);
-        soma=n1+n2;
-        printf("A adicao dos dois numeros e igual a %d.\n", soma);
-}
-        int sub(int x,int y);
 
-{       
-        int sub,x,y;
-        sub=x-y;
+        soma=n1+n2;
+
+        printf("A adicao dos dois numeros e igual a %d.\n", soma);
+
+        }
+
+int sub(){
+
+    int n1,n2,sub;
+        printf("Insira o primeiro numero: \n");
+        scanf("%d", &n1);
+        printf("Insira o segundo numero: \n");
+        scanf("%d",&n2);
+
+        sub=n1-n2;
+
         printf("A subtraccao dos dois numeros e igual a %d.\n", sub);
-        return sub;
+        
+        }
+
+int main(){
+
+        adicao();
+        sub();
+        return 0;
 }
+
+        
+    
+
         
         
