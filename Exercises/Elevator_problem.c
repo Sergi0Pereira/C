@@ -29,7 +29,7 @@ printf("Qual e a posicao do elevador 2?\n");
         printf("Elevador 2 indisponivel.\n");
     }
 // Processamento
-dist1=abs(elevador1-andar);
+dist1=abs(elevador1-andar); // abs = distancia absoluta
 dist2=abs(elevador2-andar);
 
     if(elevador1==999 && elevador2==999){
