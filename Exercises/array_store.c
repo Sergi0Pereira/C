@@ -8,32 +8,34 @@ element - 2 : 2
 Expected Output :
 Elements in array are: 1 1 2 3 4 5 6 7 8 9*/
 #include <stdio.h>
-int main(){
-int x;
+int main()
+{
+    int x;
 
     printf("Input how many elements array gonna have:\n");
-    scanf("%d",&x);
+    scanf("%d", &x);
 
-int c[x],i=1,e=1;
+    int c[x], i = 1, e = 1;
 
     printf("Input the elements of the array:\n");
 
-while(e<=x){
+    while (e <= x)
+    {
 
-    printf("Element %d : ",e);
-    scanf("%d",&c[e]);
-    e++;
+        printf("Element %d : ", e);
+        scanf("%d", &c[e]);
+        e++;
     }
 
-    e=1;
+    e = 1;
 
     printf("Elements in array are:");
 
-while(e<=x){
+    while (e <= x)
+    {
 
-    printf("%d ", c[e]);
-    e++;
+        printf("%d ", c[e]);
+        e++;
     }
-return 0;
+    return 0;
 }
-

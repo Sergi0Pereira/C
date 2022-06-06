@@ -1,29 +1,29 @@
 #include <stdio.h>
 
-int main(){
+int main()
+{
 
-// Inputs
+    // Inputs
 
-    double area,perimetro,comprimento,largura;
+    double area, perimetro, comprimento, largura;
 
     printf("Insira aqui o comprimento do seu rectangulo:\n");
 
-        scanf("%lf", &comprimento); //%lf só necessita de ser usado no scan
+    scanf("%lf", &comprimento); //%lf só necessita de ser usado no scan
 
     printf("Insira aqui a largura do seu rectangulo:\n");
 
-        scanf("%lf", &largura);
+    scanf("%lf", &largura);
 
-// Processamento
+    // Processamento
 
-    area = (comprimento*largura);
+    area = (comprimento * largura);
 
-    perimetro = (comprimento+largura)*2;
+    perimetro = (comprimento + largura) * 2;
 
-// Outputs
+    // Outputs
 
-    printf("A area do seu rectangulo e de: %f metros quadrados.\n"  , area); // aqui basta colocar o %f
+    printf("A area do seu rectangulo e de: %f metros quadrados.\n", area); // aqui basta colocar o %f
 
-    printf("O perimetro do seu rectangulo e de: %f metros."  , perimetro);
-
+    printf("O perimetro do seu rectangulo e de: %f metros.", perimetro);
 }
