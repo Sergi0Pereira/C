@@ -9,7 +9,7 @@ int main()
     o = 8;
     p = 1376;
     soma = n + o + p;
-    double junior;
+    double Elisandra;
 
     printf("%i", soma);
 
@@ -17,5 +17,5 @@ int main()
 
     printf("O valor de n(%i) + o(%i) + p(%i) e igual a soma(%i).\n",n,o, p, (n+o+p));
 
-   printf("%d", junior);
+   printf("Elisandra vale: %d", Elisandra);
 }
