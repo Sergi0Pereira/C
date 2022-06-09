@@ -1,14 +1,14 @@
 #include <stdio.h>
 #include <conio.h>
+#include "F_HW.c"
 
-int main()
+char pausa()
 
 {
-    char pausa()
-    {
-        printf("Press any key to continue....");
-        getch();
-    }
-
-    pausa();
+    printf("Press any key to continue....");
+    getch();
+    hw();
 }
+
+
+
