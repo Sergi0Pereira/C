@@ -11,6 +11,7 @@ int main()
     soma = n + o + p;
     double Elisandra;
 
+
     printf("%i", soma);
 
     printf("Vamos somar variaveis no print:\n");
