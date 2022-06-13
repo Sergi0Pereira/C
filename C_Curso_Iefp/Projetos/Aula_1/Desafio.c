@@ -3,7 +3,6 @@
 int main()
 
 {
-
     // Declarar uma vari
 
     int dia;
