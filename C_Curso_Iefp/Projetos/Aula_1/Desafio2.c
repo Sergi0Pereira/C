@@ -49,7 +49,7 @@ int main()
         }
         printf("Deseja inserir outro dia?\n");
         scanf(" %c", &res);
-        res=tolower(res);
+        res=tolower(res); //tolower passa para minusculas..
       
     }
     while (res == 's');
