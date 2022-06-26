@@ -48,7 +48,7 @@ int main()
             break;
         }
         printf("Deseja inserir outro dia?\n");
-        scanf(" %c", &res);
+        scanf("%c", &res);
         res=tolower(res); //tolower passa para minusculas..
       
     }
