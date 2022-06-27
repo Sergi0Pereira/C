@@ -8,7 +8,7 @@ char* ponteiro=&n; //ponteiro pode ser *ptr, * ptr
 
 printf("%c e o valor da variavel", n);
 printf("\n");
-printf("%p e o endereco da variavel", &n);
+printf("%p e o endereco da variavel", &n); //& aponta para o endereco da variavel 
 printf("\n");
 
 
