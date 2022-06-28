@@ -12,6 +12,7 @@ void nomeIdade(char nome[], int idade)
 {
 
     printf("o seu nome e %s e a sua idade e de %d.", nome, idade);
+    return nome;
 }
 
 int potencia(int base, int expoente)
@@ -45,7 +46,7 @@ int main()
 { // o int main() é só uma predefinicao usada.. pode se usar outros tipos..
     float numero;
     campeao(); // Funcao vazia, sem argumentos.
-    nomeIdade("Sergio", 32);
+    nomeIdade("Sergio", 32); //Funcao com argumentos
 
     printf("%d\n", potencia(5, 6));
 
