@@ -63,6 +63,7 @@ int main()
         }
         else
         {
+            x=i;
             break;
         }
     }
