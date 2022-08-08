@@ -1,0 +1,16 @@
+Preço do produto:53.6
+Iva a ser aplicado: 23%
+O preço final do produto é: 65.928
+
+Preço do produto:26
+Iva a ser aplicado: 13%
+O preço final do produto é: 29.38
+
+Preço do produto:13
+Iva a ser aplicado: 6%
+O preço final do produto é: 13.78
+
+Preço do produto:14
+Iva a ser aplicado: 23%
+O preço final do produto é: 17.22
+
