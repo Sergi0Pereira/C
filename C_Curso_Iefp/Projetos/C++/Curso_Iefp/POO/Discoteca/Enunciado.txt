@@ -1,0 +1,13 @@
+Pretende–se um programa para a gestão de clientes de uma discoteca. A cada cliente é dado, à entrada, um cartão com um número. Os cartões 
+
+estão previamente numerados e existe uma lista de produtos (código do produto, descrição e preço) também previamente definida. De cada vez que
+ 
+o cliente consome algum produto é registado no cartão o código do produto assim como a quantidade. É necessário verificar se o código do 
+
+produto introduzido é valido.(Switch) Se o cliente exceder os 10 consumos terá que liquidar a conta e pedir novo cartão. Quando um cliente 
+
+sai, o programa deverá calcular o preço a pagar pelo cliente e registar esse cartão como pago (deverá apresentar a relação dos consumos com 
+
+totais parciais e totais).
+
+

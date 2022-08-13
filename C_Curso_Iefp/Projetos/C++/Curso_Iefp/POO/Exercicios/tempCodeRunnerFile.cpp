@@ -1,1 +1,1 @@
-Pessoa pessoas;
+using namespace std;
